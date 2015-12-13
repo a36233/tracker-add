@@ -5,7 +5,7 @@ base_url='http://torrentz.eu'
 pattern='announcelist_[0-9]+'
 
 if [ -z "$1" ] ; then
-    echo 'Usage: ./tracker-add sh <hash>'
+    echo 'Usage: ./tracker-add.sh <hash>'
     exit 1
 fi
 
