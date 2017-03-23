@@ -1,7 +1,7 @@
 #!/bin/bash
 
 torrent_hash=$1
-base_url='http://torrentz2.eu'
+base_url='https://torrentz2.eu'
 pattern='announcelist_[0-9]+'
 
 if [ -z "$1" ] ; then
